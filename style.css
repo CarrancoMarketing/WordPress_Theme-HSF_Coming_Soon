@@ -1,0 +1,343 @@
+/*
+Theme Name: Houston Sports Fan
+Theme URI: http://.com
+Author: Larry Carranco, Jose Carranco
+Author URI: http://carrancomarketing.com
+Description: Custom theme made for Houston Sports Fan. This theme is fully responsive. 
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Houston Sports Fan
+
+*/
+
+/* # Imports
+---------------------------------------------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+
+/* # Defaults
+---------------------------------------------------------------------------------------------------- */
+.admin-bar .navbar-fixed-top{
+	margin-top:30px;
+}
+* a{
+	color:#ffffff;
+	transition: .15s all linear;
+}
+* a:hover{
+	color:#ffffff;
+
+	text-decoration: none;
+}
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	color: #ffffff; 
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 2px 2px 10px #000000;
+	background-image: url(images/bg.jpg);
+	background-size: cover;
+	background-color: #000000; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;
+    webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%; 
+}
+a {
+	border-style: solid;
+    border-bottom: solid #ffffff .5px;
+}
+.container{
+	max-width: 960px;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -125px;
+}
+.paddingNone {
+	padding-left: 0;
+	padding-right: 0;
+}
+/* # Overrides
+---------------------------------------------------------------------------------------------------- */
+ul, menu, dir {
+	display: block;
+	list-style-type: disc;
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start:0px;
+}
+ul{
+	margin:0 0 20px 35px;
+}
+.row{
+	margin-left: 0;
+	margin-right:0;
+}
+.floatleft {
+  float: left; }
+
+.floatright {
+  float: right; }
+textarea{
+	width:100%;
+}
+
+/*Use .clear-pad after any bootstrap column to remove left and right padding/*/
+.clear-pad{
+	padding-left: 0px;
+	padding-right:0px;
+}
+.clear-padL{
+	padding-left: 0px;
+}
+.clearfix{
+	clear: both;
+}
+
+/* # Headings
+---------------------------------------------------------------------------------------------------- */
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Dosis', sans-serif;
+	text-transform: none;
+}
+h1{
+	font-size: 108px;
+	color: #c30505;
+	font-weight: bold;
+	margin-top: 30px;
+}
+h1 span{
+	color: #ffffff;
+}
+h2{
+	font-size: 70px;
+	font-weight: bold;
+	color: #ffffff;
+	/*margin-top: 15px;*/
+	display: inline-block;
+}
+h3{
+	font-size: 34px;
+	color: #ffffff;
+	margin-top: -5px;
+}
+h4{
+	font-size: 27px;
+	color: #ffffff;
+}
+
+/* ------------------------------------------
+## Footer
+--------------------------------------------- */
+footer, .push {
+	height: 125px; /* .push must be the same height as .footer */
+	clear: both;
+}
+footer{
+	padding: 30px 0;
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 18px;
+	background: hsla(0, 0%, 6%, 0.95);
+	text-transform: none;	
+	text-shadow: 2px 2px 10px #000000;
+	font-weight: normal;
+}
+.footercopyright{
+	text-align: left;
+}
+
+.socialicons {
+	text-align: right;
+	padding-right: 15px;
+	font-size: 32px;
+}
+.socialicons a, .socialicons a:focus, .socialicons a:visited, .socialicons a:active, a.address, a.address:focus, a.address:visited, a.address:active, a.footerphone, a.footerphone:focus, a.footerphone:visited, a.footerphone:active {
+	color: #ffffff;
+	border: none;
+}
+a.footerphone {
+	border-bottom: none;
+}
+
+/* ## Form
+--------------------------------------------- */
+.gform_wrapper {
+    max-width: 100%!important;
+}
+.gform_wrapper .top_label li.gfield.gf_left_half input.large, .gform_wrapper .top_label li.gfield.gf_left_half input.medium, .gform_wrapper .top_label li.gfield.gf_left_half select.large, .gform_wrapper .top_label li.gfield.gf_left_half select.medium, .gform_wrapper .top_label li.gfield.gf_right_half input.large, .gform_wrapper .top_label li.gfield.gf_right_half input.medium, .gform_wrapper .top_label li.gfield.gf_right_half select.large, .gform_wrapper .top_label li.gfield.gf_right_half select.medium {
+    width: 100%!important;
+}
+.gform_wrapper li.gfield.gfield_error.gfield_contains_required div.ginput_container, .gform_wrapper li.gfield.gfield_error.gfield_contains_required label.gfield_label {
+     margin-top: .25em!important; 
+}
+/*Removed text shadow from error message*/
+.validation_error, .gfield_label, .validation_message {
+	text-shadow: none;
+}
+.gform_footer input[type=submit]{
+	background:#c30505;
+	color:#ffffff;
+	border: 1px solid #e51837;
+	padding:5px 15px;
+	transition:.15s all linear;
+	text-shadow: 2px 2px 10px #000000;
+	box-shadow: 2px 2px 10px #000000;
+	text-transform: none !important;
+}
+
+.gform_footer input[type=submit]:hover{
+	background:#e51837;
+	color:#ffffff;
+}
+.gform_wrapper .gfield_required {
+    color: #ffffff!important;
+}
+input, button, select, textarea {
+    color: #000000;
+}
+.gform_wrapper input[type=email], .gform_wrapper input[type=number], .gform_wrapper input[type=password], 
+.gform_wrapper input[type=tel], .gform_wrapper input[type=text], .gform_wrapper input[type=url] {
+    outline-style: none;
+    font-size: inherit;
+    font-family: inherit;
+    padding: 1em .25em !important;
+    letter-spacing: normal;
+    text-indent: .25em;
+}
+.gfield_label {
+	text-transform: none;
+	font-weight: normal;
+	font-family: 'Dosis', sans-serif !important;
+	font-size: 22px;
+}
+.gform_wrapper li.gfield.gfield_error, .gform_wrapper li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {
+    background-color: transparent !important;
+    margin-bottom: .375em!important;
+    padding: 0;
+    border-top: none !important;
+    border-bottom: none !important;
+}
+.gform_wrapper .gfield_error .gfield_label {
+    color: #F71717 !important;
+}
+.gform_wrapper .validation_message {
+    color: #F71717 !important;
+    font-weight: 700;
+    letter-spacing: normal;
+}
+.gform_wrapper div.validation_error {
+    color: #F71717 !important;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-bottom: 1.6em;
+    border-top: 2px solid #F71717 !important;
+    border-bottom: 2px solid #F71717 !important;
+    padding: 1em 0;
+    clear: both;
+    width: 97.5%;
+}
+
+/* ## Media Queries
+--------------------------------------------- */
+@media (max-width:1140px) {
+	body{
+	    webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover; 
+	}
+}
+
+@media screen and (max-width: 991px) {
+	
+}
+
+@media screen and (max-width: 767px) {
+	/*Overriding the 47.5% defualt width and made the text boxes */
+	.gform_wrapper .top_label li.gfield.gf_left_half, .gform_wrapper .top_label li.gfield.gf_right_half {
+	    display: block !important;
+	    width: 100% !important;
+	}
+	.gform_wrapper .top_label li.gfield.gfield_error.gf_left_half, .gform_wrapper .top_label li.gfield.gfield_error.gf_right_half {
+	    width: 100% !important;
+	}
+	.gform_footer {
+		text-align: center;
+	}
+	footer, .push {
+	    height: 171px;
+	}
+	.socialicons {
+		text-align: left;
+	}
+	.copyright {
+		margin-top: 15px;
+	}
+	.footercopyright, .socialicons, .copyright {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width:560px) {
+	body .gform_wrapper .gform_body .gform_fields .gfield input[type=text] {
+		height:50px
+	}
+}
+
+@media screen and (max-width: 480px) {
+	h1{
+		font-size: 70px;
+	}
+	h2{
+		font-size: 54px;
+	}
+	h3{
+		font-size: 30px;
+	}
+	h4{
+		font-size: 30px;
+	}
+	.gfield_label{
+		font-size: 16px;
+	}
+	body .gform_wrapper .gform_body .gform_fields .gfield input[type=text] {
+		height:30px
+	}
+}
+
+@media screen and (max-width:320px) {
+	h1{
+		font-size: 60px;
+	}
+	h2{
+		font-size: 36px;
+	}
+	h3{
+		font-size: 22px;
+	}
+	h4{
+		font-size: 22px;
+	}
+	.gfield_label{
+		font-size: 14px;
+	}
+	.gform_wrapper input[type=email], .gform_wrapper input[type=number], .gform_wrapper input[type=password], .gform_wrapper input[type=tel], .gform_wrapper input[type=text], .gform_wrapper input[type=url] {
+		padding: .5em .25em !important;
+	}
+}
