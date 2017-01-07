@@ -1,6 +1,6 @@
 /*
 Theme Name: Houston Sports Fan
-Theme URI: http://.com
+Theme URI: http://houstonsportsfan.com
 Author: Larry Carranco, Jose Carranco
 Author URI: http://carrancomarketing.com
 Description: Custom theme made for Houston Sports Fan. This theme is fully responsive. 
@@ -38,8 +38,6 @@ body {
 	font-family: 'Oswald', sans-serif;
 	font-size: 18px;
 	color: #ffffff; 
-	text-transform: uppercase;
-	font-weight: bold;
 	text-align: center;
 	text-shadow: 2px 2px 10px #000000;
 	background-image: url(images/bg.jpg);
@@ -111,14 +109,8 @@ textarea{
 
 /* # Headings
 ---------------------------------------------------------------------------------------------------- */
-h1,h2,h3,h4,h5,h6{
-	font-family: 'Dosis', sans-serif;
-	text-transform: none;
-}
 h1{
-	font-size: 108px;
-	color: #c30505;
-	font-weight: bold;
+	font-size: 80px;
 	margin-top: 30px;
 }
 h1 span{
