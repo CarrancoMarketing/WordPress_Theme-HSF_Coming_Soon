@@ -57,7 +57,7 @@ a {
     border-bottom: solid #ffffff .5px;
 }
 .container{
-	max-width: 960px;
+	width: 1260px;
 }
 .wrapper {
 	min-height: 100%;
@@ -110,28 +110,16 @@ textarea{
 
 /* # Headings
 ---------------------------------------------------------------------------------------------------- */
-h1{
+h1 {
 	font-size: 80px;
 	margin-top: 30px;
 }
-h1 span{
-	color: #ffffff;
-}
-h2{
+h2 {
 	font-size: 70px;
-	font-weight: bold;
-	color: #ffffff;
-	/*margin-top: 15px;*/
-	display: inline-block;
 }
-h3{
+h3 {
 	font-size: 34px;
-	color: #ffffff;
 	margin-top: -5px;
-}
-h4{
-	font-size: 27px;
-	color: #ffffff;
 }
 
 /* ------------------------------------------
