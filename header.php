@@ -14,10 +14,8 @@
   <body <?php body_class(); ?>>
   <div class="wrapper">
   <header>
-    <div class="topbar">
-      <div class="container"> 
-          <div class="col-md-12">
-          </div> 
-      </div>
+    <div class="container"> 
+        <div class="col-md-12">
+        </div> 
     </div>
   </header>

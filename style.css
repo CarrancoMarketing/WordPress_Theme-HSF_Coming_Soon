@@ -127,12 +127,9 @@ footer, .push {
 footer{
 	padding: 30px 0;
 	color: #ffffff;
-	font-size: 14px;
-	line-height: 18px;
-	background: hsla(0, 0%, 6%, 0.95);
-	text-transform: none;	
+	background: hsla(0, 0%, 6%, )1;
 	text-shadow: 2px 2px 10px #000000;
-	font-weight: normal;
+	border-top: 5px solid #dedede;
 }
 .footercopyright{
 	text-align: left;
