@@ -7,12 +7,10 @@
     </div>
     <div class="col-md-6 col-md-offset-6">
       <h2>Website Coming Soon</h2>
-      <h3>For more information fill out form below to be notified of when the site goes live.</h3>
+      <h3>For deals on Houston's officially licensed sports team merchandise fill out the form below.</h3>
       <?php the_content(); ?>
       <?php endwhile; endif;?>
     </div>
-      <!-- Change the button from "Start Today" to "Sign Up" -->
   </div>
-
-   <?php get_footer(); ?> 
+<?php get_footer(); ?> 
 
