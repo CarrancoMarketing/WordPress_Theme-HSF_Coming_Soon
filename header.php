@@ -15,7 +15,8 @@
   <div class="wrapper">
   <header>
     <div class="container"> 
-        <div class="col-md-12">
-        </div> 
+       <div class="col-md-12">
+         <h1>Houston Sports Fan</h1>
+       </div> 
     </div>
   </header>
