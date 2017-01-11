@@ -121,7 +121,7 @@ h3 {
 ## Footer
 --------------------------------------------- */
 footer, .push {
-	height: 125px; /* .push must be the same height as .footer */
+	height: 140px; /* .push must be the same height as .footer */
 	clear: both;
 }
 footer{
@@ -193,7 +193,6 @@ input, button, select, textarea {
 .gform_wrapper input[type=tel], .gform_wrapper input[type=text], .gform_wrapper input[type=url] {
     outline-style: none;
     font-size: inherit;
-    font-family: inherit;
     padding: 1em .25em !important;
     letter-spacing: normal;
     text-indent: .25em;
@@ -201,7 +200,6 @@ input, button, select, textarea {
 .gfield_label {
 	text-transform: none;
 	font-weight: normal !important;
-	font-family: 'Dosis', sans-serif !important;
 	font-size: 24px !important;
 }
 .gform_wrapper li.gfield.gfield_error, .gform_wrapper li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {
