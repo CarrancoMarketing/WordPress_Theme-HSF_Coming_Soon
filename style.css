@@ -40,7 +40,6 @@ body {
 	font-size: 18px;
 	color: #ffffff; 
 	text-align: center;
-	text-shadow: 2px 2px 10px #000000;
 	background-image: url(images/bg.jpg);
 	background-size: cover;
 	background-color: #000000; 
@@ -80,15 +79,6 @@ ul, menu, dir {
 ul{
 	margin:0 0 20px 35px;
 }
-.row{
-	margin-left: 0;
-	margin-right:0;
-}
-.floatleft {
-  float: left; }
-
-.floatright {
-  float: right; }
 textarea{
 	width:100%;
 }
@@ -109,35 +99,42 @@ textarea{
 ---------------------------------------------------------------------------------------------------- */
 h1 {
 	font-size: 80px;
+	margin: 0;
 }
 h2 {
 	font-size: 65px;
 }
-h3 {
-	font-size: 24px;
-}
-
 header {
 	padding: 30px 0;
+	height: 150px;
 	color: #ffffff;
-	background: hsla(0, 0%, 6%, 1);
+	background-color: #1b1b1d;
 	text-shadow: 2px 2px 10px #000000;
-	border-top: 5px solid #dedede;
+	border-bottom: 5px solid #dedede;
+	margin-bottom: 30px;
+}
+
+.content p {
+	font-size: 24px;
+	margin: 15px 0 0 0;
 }
 
 /* ------------------------------------------
 ## Footer
 --------------------------------------------- */
 footer, .push {
-	height: 140px; /* .push must be the same height as .footer */
+	height: 150px; /* .push must be the same height as .footer */
 	clear: both;
 }
-footer{
-	padding: 30px 0;
+footer {
+	padding: 50px 0;
 	color: #ffffff;
-	background: hsla(0, 0%, 6%, 1);
-	text-shadow: 2px 2px 10px #000000;
+	background-color: #1b1b1d;
 	border-top: 5px solid #dedede;
+}
+
+footer p {
+    margin: 7px 0 0 0px;
 }
 .footercopyright{
 	text-align: left;
@@ -162,6 +159,9 @@ a.footerphone {
 .gform_wrapper {
     max-width: 100%!important;
 }
+.gform_validation_error {
+	margin: 30px 0 0 0;
+}
 .gform_wrapper .top_label li.gfield.gf_left_half input.large, .gform_wrapper .top_label li.gfield.gf_left_half input.medium, .gform_wrapper .top_label li.gfield.gf_left_half select.large, .gform_wrapper .top_label li.gfield.gf_left_half select.medium, .gform_wrapper .top_label li.gfield.gf_right_half input.large, .gform_wrapper .top_label li.gfield.gf_right_half input.medium, .gform_wrapper .top_label li.gfield.gf_right_half select.large, .gform_wrapper .top_label li.gfield.gf_right_half select.medium {
     width: 100%!important;
 }
@@ -178,8 +178,6 @@ a.footerphone {
 	border: 1px solid #e51837;
 	padding:5px 35px;
 	transition:.15s all linear;
-	text-shadow: 2px 2px 10px #000000;
-	box-shadow: 2px 2px 10px #000000;
 	text-transform: none !important;
 	font-size: 30px !important;
 }
@@ -231,7 +229,7 @@ input, button, select, textarea {
     border-bottom: 2px solid #F71717 !important;
     padding: 1em 0;
     clear: both;
-    width: 97.5%;
+    width: 100%;
 }
 
 /* ## Media Queries
