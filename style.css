@@ -231,6 +231,9 @@ input, button, select, textarea {
     clear: both;
     width: 100%;
 }
+.gform_wrapper.gf_browser_chrome .gform_body {
+     width: 100%; 
+}
 
 /* ## Media Queries
 --------------------------------------------- */
@@ -254,6 +257,9 @@ input, button, select, textarea {
 }
 
 @media screen and (max-width: 767px) {
+	h1 {
+		font-size: 60px
+	}
 	/*Overriding the 47.5% defualt width and made the text boxes */
 	.gform_wrapper .top_label li.gfield.gf_left_half, .gform_wrapper .top_label li.gfield.gf_right_half {
 	    display: block !important;
@@ -280,6 +286,9 @@ input, button, select, textarea {
 }
 
 @media screen and (max-width:560px) {
+	h1 {
+		font-size: 50px;
+	}
 	body .gform_wrapper .gform_body .gform_fields .gfield input[type=text] {
 		height:50px
 	}
@@ -287,7 +296,7 @@ input, button, select, textarea {
 
 @media screen and (max-width: 480px) {
 	h1{
-		font-size: 70px;
+		font-size: 32px;
 	}
 	h2{
 		font-size: 54px;
@@ -308,7 +317,7 @@ input, button, select, textarea {
 
 @media screen and (max-width:320px) {
 	h1{
-		font-size: 60px;
+		/*font-size: 60px;*/
 	}
 	h2{
 		font-size: 36px;
